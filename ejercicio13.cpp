@@ -1,4 +1,5 @@
-
+#include<iostream>
+using namespace std;
 int main() {
 
     float base, altura;
@@ -6,7 +7,7 @@ int main() {
     cin>>base;
     cout<<"Ingrese la altura del triangulo: ";
     cin>>altura;
-    float area = //calcular el area
+    float area = (base * altura)/2;
     cout<<"El area del triangulo es: "<<area<<"\n";
 
 }
